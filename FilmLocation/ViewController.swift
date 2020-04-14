@@ -104,8 +104,64 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         table.topAnchor.constraint(equalTo: view.layoutMarginsGuide.topAnchor).isActive = true
         table.bottomAnchor.constraint(equalTo: view.layoutMarginsGuide.bottomAnchor).isActive = true
     }
-    
-    
-    
 }
 
+
+
+
+// MY JSON
+/*
+{
+    “festival”:
+    [
+        {
+            “date”: “Oct 31 2020”,
+            “name”: “Cool Movies”,
+            “city”:
+            {
+                “name”: “Los Angelos”,
+                “id”: 12334
+            },
+        
+            “lineup”:
+                [
+                    {
+                    “name”: “Forrest Gump”,
+                    “id”: 1
+                    },
+                    {
+                    “name”:  “The Shawshank Redemption”,
+                    “id”: 2
+                    }
+                ],
+            
+            “type”: "music"
+        },
+    
+        {
+            “date”: “December 25 2020”,
+            “name”: “Cool Games”,
+            “city”:
+            {
+                “name”: “San Francisco”,
+                “id”: 36472
+            },
+        
+            “lineup”:
+                [
+                    {
+                    “name”: “Gran Turismo”,
+                    “id”: 1
+                    },
+                    {
+                    “name”:  “Super Mario”,
+                    “id”: 2
+                    }
+                ],
+            
+            “type”: "game"
+            }
+    ]
+}
+
+ */
