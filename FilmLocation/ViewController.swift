@@ -11,28 +11,26 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return films.count
+        return filmsDecoded.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "movieCell", for: indexPath)
-        cell.textLabel!.text = films[indexPath.row].locations
+        cell.textLabel!.text = filmsDecoded[indexPath.row].locations + " " + filmsDecoded[indexPath.row].releaseYear.value
         return cell
     }
     
     var films:[FilmEntry] = []
     var filmsDecoded:[FilmEntryCodable] = []
     
-
-
     
     let table = UITableView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        getDataFromFile("locations")
-//        getDataFromFile2("locations")
+//        getDataFromFile("locations")
+        getDataFromFile2("locations")
         setUpTable()
         
     }
