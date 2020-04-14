@@ -18,6 +18,7 @@
 		2CC027972445213100D2178C /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC027952445213100D2178C /* MovieCell.swift */; };
 		2CC027982445213100D2178C /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CC027962445213100D2178C /* MovieCell.xib */; };
 		2CC027BE244532E400D2178C /* FilmEntryCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC027BD244532E400D2178C /* FilmEntryCodable.swift */; };
+		2CC027C22445424300D2178C /* myJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CC027C12445424300D2178C /* myJSON.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		2CC027952445213100D2178C /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		2CC027962445213100D2178C /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
 		2CC027BD244532E400D2178C /* FilmEntryCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmEntryCodable.swift; sourceTree = "<group>"; };
+		2CC027C12445424300D2178C /* myJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myJSON.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				2CC027962445213100D2178C /* MovieCell.xib */,
 				2CC0279324451FDF00D2178C /* FilmEntry.swift */,
 				2CC0279124451EC100D2178C /* locations.json */,
+				2CC027C12445424300D2178C /* myJSON.json */,
 				2CC0278324451E7C00D2178C /* Main.storyboard */,
 				2CC0278624451E7D00D2178C /* Assets.xcassets */,
 				2CC0278824451E7D00D2178C /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CC0278A24451E7D00D2178C /* LaunchScreen.storyboard in Resources */,
+				2CC027C22445424300D2178C /* myJSON.json in Resources */,
 				2CC0278724451E7D00D2178C /* Assets.xcassets in Resources */,
 				2CC0279224451EC100D2178C /* locations.json in Resources */,
 				2CC0278524451E7C00D2178C /* Main.storyboard in Resources */,
@@ -311,7 +315,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.FilmLocation;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FilmLocation;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -328,7 +332,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.FilmLocation;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FilmLocation;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
